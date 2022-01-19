@@ -5,7 +5,7 @@ on:
         branches:
             - master
     schedule:
-        - cron: 10 12,16 * * *
+        - cron: 0 15 10 ? * MON-FRI
     watch:
         types: 
             - started
